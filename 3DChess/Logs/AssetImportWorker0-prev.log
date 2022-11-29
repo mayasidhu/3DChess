@@ -1,0 +1,346 @@
+Unity Editor version:    2021.3.13f1 (9e7d58001ecf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.1 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mayasidhu/Documents/GitHub/3DChess/3DChess
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54495
+Successfully changed project path to: /Users/mayasidhu/Documents/GitHub/3DChess/3DChess
+/Users/mayasidhu/Documents/GitHub/3DChess/3DChess
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 122.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mayasidhu/Documents/GitHub/3DChess/3DChess/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56002
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003272 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 96.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Domain Reload Profiling:
+	ReloadAssembly (870ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (600ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003822 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mayasidhu/Documents/GitHub/3DChess/3DChess/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mayasidhu/Documents/GitHub/3DChess/3DChess/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.470 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1470ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1147ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (409ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (97.2 KB). Loaded Objects now: 3806.
+Memory consumption went from 227.9 MB to 227.8 MB.
+Total: 3.944901 ms (FindLiveObjects: 0.361273 ms CreateObjectMapping: 0.200850 ms MarkObjects: 3.168295 ms  DeleteObjects: 0.213058 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21061.790487 seconds.
+  path: Assets/SkyBox
+  artifactKey: Guid(bbbb259bc6211492cad20f1c6b974ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox using Guid(bbbb259bc6211492cad20f1c6b974ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb5d7c5283f5db69b0437cc6dad428a') in 0.049191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 177.657563 seconds.
+  path: Assets/SkyBox/indoors-skyboxes
+  artifactKey: Guid(62c3c431eb37f422d8fe81c544b6fff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/indoors-skyboxes using Guid(62c3c431eb37f422d8fe81c544b6fff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49d92d6202a8a26756b3ace0825e4cc') in 0.003951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.700728 seconds.
+  path: Assets/SkyBox/indoors-skyboxes/Vasa
+  artifactKey: Guid(fe1dce503e173448eac678e7146463f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/indoors-skyboxes/Vasa using Guid(fe1dce503e173448eac678e7146463f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02288cfb53b1af07a111555632b0998') in 0.003913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049508 seconds.
+  path: Assets/SkyBox/indoors-skyboxes/Vasa/negx.jpg
+  artifactKey: Guid(b60e18673808848fab4a2691bf0ae935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/indoors-skyboxes/Vasa/negx.jpg using Guid(b60e18673808848fab4a2691bf0ae935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cb557fc51ae20d4d712b036993c7b7') in 0.962138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/SkyBox/indoors-skyboxes/Vasa/posy.jpg
+  artifactKey: Guid(daf88d66ec11c4e91be6a1d93958246c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/indoors-skyboxes/Vasa/posy.jpg using Guid(daf88d66ec11c4e91be6a1d93958246c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f83f7f2888c04bfcd82c5dc0441e05') in 0.024935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/SkyBox/indoors-skyboxes/Vasa/posx.jpg
+  artifactKey: Guid(fc4ffd968887d49d284d468367899213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/indoors-skyboxes/Vasa/posx.jpg using Guid(fc4ffd968887d49d284d468367899213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67b2bda1c8320861db475d3e5e7698c') in 0.022957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.105746 seconds.
+  path: Assets/Material
+  artifactKey: Guid(db8cf8dac5e17410fb4fa048d3a79269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material using Guid(db8cf8dac5e17410fb4fa048d3a79269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9a168907e5b1c4f2e1893d37c1e689') in 0.002692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.088715 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(db8cf8dac5e17410fb4fa048d3a79269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(db8cf8dac5e17410fb4fa048d3a79269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1041e9da9f358037a40c04c43f20276d') in 0.002658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.484193 seconds.
+  path: Assets/Materials/Indoor Skybox.mat
+  artifactKey: Guid(93e89cabfdc4a4ba8aaa03d630515f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Indoor Skybox.mat using Guid(93e89cabfdc4a4ba8aaa03d630515f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328c98925b0e512877658fec7b0523f4') in 0.796177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.402043 seconds.
+  path: Assets/SkyBox/indoors-skyboxes/MarriottMadisonWest
+  artifactKey: Guid(1aab938475388462d83dd369aea09f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/indoors-skyboxes/MarriottMadisonWest using Guid(1aab938475388462d83dd369aea09f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af86bccaf312eb68e01d8ffd6f57d5a7') in 0.006842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078843 seconds.
+  path: Assets/SkyBox/indoors-skyboxes/MarriottMadisonWest/negx.jpg
+  artifactKey: Guid(4b57e881c678e4d178ac07e717cac2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/indoors-skyboxes/MarriottMadisonWest/negx.jpg using Guid(4b57e881c678e4d178ac07e717cac2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7276deec23e52a61525619611b68f929') in 0.022436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/SkyBox/indoors-skyboxes/MarriottMadisonWest/posx.jpg
+  artifactKey: Guid(47668c39f0290410689c0f5f22569f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/indoors-skyboxes/MarriottMadisonWest/posx.jpg using Guid(47668c39f0290410689c0f5f22569f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305fe9b4ecea406ae7ce353e7d76d00b') in 0.013468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/SkyBox/indoors-skyboxes/MarriottMadisonWest/posz.jpg
+  artifactKey: Guid(ceec2c031773e46b385dc75d6691c405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/indoors-skyboxes/MarriottMadisonWest/posz.jpg using Guid(ceec2c031773e46b385dc75d6691c405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6120e4630cf59d0975720db8f5634f') in 0.016879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 436.157646 seconds.
+  path: Assets/Materials/SkyBox.mat
+  artifactKey: Guid(6b245deae3df24243abd221ed1265591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SkyBox.mat using Guid(6b245deae3df24243abd221ed1265591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb783b98f87fa38efefd276590ce4d93') in 0.049151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.847068 seconds.
+  path: Assets/SkyBox/envmap_miramar
+  artifactKey: Guid(0a18dda73e9334528ad04e1299beae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/envmap_miramar using Guid(0a18dda73e9334528ad04e1299beae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5c962761be2dcffd87c346d1c70776') in 0.002823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058094 seconds.
+  path: Assets/SkyBox/envmap_miramar/miramar_bk.tga
+  artifactKey: Guid(d70708db7b3d044d9b0661f150c1d6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/envmap_miramar/miramar_bk.tga using Guid(d70708db7b3d044d9b0661f150c1d6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822bf028ca0dc1beb82b1a88c9f19158') in 0.848278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/SkyBox/envmap_miramar/miramar_rt.tga
+  artifactKey: Guid(1d0bf30ccb32349a6bc9e2e276cd6f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/envmap_miramar/miramar_rt.tga using Guid(1d0bf30ccb32349a6bc9e2e276cd6f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ab39fa3129c14be5aa275eac4f2dfc') in 0.019736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/SkyBox/envmap_miramar/miramar_ft.tga
+  artifactKey: Guid(45a4bc0878db34150b8c1dd3fdc18ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/envmap_miramar/miramar_ft.tga using Guid(45a4bc0878db34150b8c1dd3fdc18ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec60378cec944fa4aaf8ac26b638223') in 0.017385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 293.830779 seconds.
+  path: Assets/SkyBox/envmap_miramar/miramar_bk.tga
+  artifactKey: Guid(ee91a1109640e497c8d209dbb7784ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/envmap_miramar/miramar_bk.tga using Guid(ee91a1109640e497c8d209dbb7784ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7197e2c91231e35d2135269aa37a5ac3') in 0.027126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/SkyBox/envmap_miramar/miramar_up.tga
+  artifactKey: Guid(b3328d85d34494a19a348c8878787331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyBox/envmap_miramar/miramar_up.tga using Guid(b3328d85d34494a19a348c8878787331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84131f7f724b9268d095560cb8c43c5e') in 0.012439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.835150 seconds.
+  path: Assets/Materials/SkyBox.mat
+  artifactKey: Guid(6b245deae3df24243abd221ed1265591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SkyBox.mat using Guid(6b245deae3df24243abd221ed1265591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf92f7c4b7e2b575b57c8aedf25cc7aa') in 0.467860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.240209 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(14f7e96dd5ab1431eb52a2e76beba3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(14f7e96dd5ab1431eb52a2e76beba3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c23158d387df1726672970d51d359bb') in 0.001718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.010613 seconds.
+  path: Assets/Objects
+  artifactKey: Guid(14f7e96dd5ab1431eb52a2e76beba3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects using Guid(14f7e96dd5ab1431eb52a2e76beba3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814a7c14ccb102655965fcca4c761816') in 0.002020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.200464 seconds.
+  path: Assets/Objects/chessboard
+  artifactKey: Guid(0112b3f28cc14489bac85b6aaf19ab41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/chessboard using Guid(0112b3f28cc14489bac85b6aaf19ab41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015b261f3de2200ce88a1b0dff0db60e') in 0.005784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053469 seconds.
+  path: Assets/Objects/chessboard/darkwood1_0.jpg
+  artifactKey: Guid(26207f107306d4900ac7597db93748a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/chessboard/darkwood1_0.jpg using Guid(26207f107306d4900ac7597db93748a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b85b85e249f224777206471624e4bc') in 0.029876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.452679 seconds.
+  path: Assets/Objects/chessboard/board.blend
+  artifactKey: Guid(be47b4be0809b43bca6cd4826b26b035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/chessboard/board.blend using Guid(be47b4be0809b43bca6cd4826b26b035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330845c7f20615e18e7f834a12a304e9') in 0.129081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.802186 seconds.
+  path: Assets/Meshes
+  artifactKey: Guid(ade736e14abbd49c4a449b4b26ff8359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes using Guid(ade736e14abbd49c4a449b4b26ff8359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bd27873ba02c0fc4edb0b284a86e09') in 0.002206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.349735 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(ade736e14abbd49c4a449b4b26ff8359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(ade736e14abbd49c4a449b4b26ff8359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e588f2d68497134932828f4eee73ac20') in 0.001619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 367.052306 seconds.
+  path: Assets/Meshes
+  artifactKey: Guid(71c1533dbff544950a26cc8381b266b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes using Guid(71c1533dbff544950a26cc8381b266b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652c92c8359cd32ce5a590ada3b5ca56') in 0.001098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.239606 seconds.
+  path: Assets/Meshes/h41raj1prj0g-chess.rar
+  artifactKey: Guid(7c202b56fb9b5413487059ef5478a1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/h41raj1prj0g-chess.rar using Guid(7c202b56fb9b5413487059ef5478a1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371ec845d42279ecf5f94b7b8dbefdfa') in 0.120510 seconds 
